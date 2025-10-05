@@ -15,7 +15,7 @@ function App() {
     setLoading(true);
     // Yaha API call ya logic aayega
    try {
-    const response = await axios.post("'https://smart-email-writer-backend-3.onrender.com/api/email/generate",{
+    const response = await axios.post("https://smart-email-writer-backend-3.onrender.com/api/email/generate",{
       emailContent,
       tone
     });
